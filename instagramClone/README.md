@@ -2,4 +2,4 @@
 
 Simple HTML Instagram clone made with Bootstrap.
 
-![](/assets/instagram.png)
+![](instagramClone/assets/instagram.png)
