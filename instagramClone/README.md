@@ -2,4 +2,4 @@
 
 Simple HTML Instagram clone made with Bootstrap.
 
-![readme](/assets/instagram.png)
+![readme](instagramClone/assets/instagram.png)
