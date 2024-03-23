@@ -4,6 +4,15 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Music Store</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -17,11 +26,6 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
   </head>
   <body>
     <nav
@@ -77,20 +81,292 @@
         </div>
       </div>
     </nav>
-    <div class="contai"></div>
 
-    <footer class="footer mt-5 py-2 bg-dark text-white">
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="img/gitar.jpg"
+            class="d-block"
+            alt=""
+            style="
+              background-size: cover;
+              width: 100%;
+              height: 70vh;
+              background-position: left;
+              filter: blur(2px);
+            "
+          />
+          <div
+            class="carousel-caption d-flex flex-column align-items-center justify-content-center h-100 new-font aralık"
+          >
+            <h1>Music</h1>
+            <br />
+            <h3>
+              Müzik dünyasının kapılarını aralayan bir yolculuğa hazır mısınız?
+              <strong> Sesinizi keşfedin, ritminizle buluşun!</strong>
+            </h3>
+            <br /><br />
+            <div>
+              <a class="buttons" href="">Keşfet</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item aralık">
+          <img
+            src="img/music.jpg"
+            class="d-block"
+            alt="..."
+            style="
+              background-size: cover;
+              width: 100%;
+              height: 70vh;
+              background-position: center;
+              filter: blur(2px);
+            "
+          />
+          <div
+            class="carousel-caption d-flex flex-column align-items-center justify-content-center h-100 new-font"
+          >
+            <h1>Lorem, ipsum dolor.</h1>
+            <br />
+            <h3>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus ipsa totam placeat laboriosam modi adipisci!
+            </h3>
+            <br />
+            <div>
+              <a class="buttons" href="">Keşfet</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item aralık">
+          <img
+            src="img/kulaklık.jpg"
+            class="d-block"
+            alt="..."
+            style="
+              background-size: cover;
+              width: 100%;
+              height: 70vh;
+              background-position: center;
+              filter: blur(2px);
+            "
+          />
+          <div
+            class="carousel-caption d-flex flex-column align-items-center justify-content-center h-100 new-font"
+          >
+            <h1 class="">IosHeadphones</h1>
+            <br />
+            <h3 class="h-font-color">Yeni nesil ses deneyimiyle tanışın</h3>
+            <br />
+            <div>
+              <a class="buttons" href="">Keşfet</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div
+      style="
+        background-color: rgb(194, 194, 194);
+        padding-bottom: 25px;
+        padding-top: 35px;
+      "
+    >
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
-            <h5>
-              <a
-                style="color: lightslategray; text-decoration: none"
-                href="about.html"
-                >İletişim için tıklayınız
-              </a>
-            </h5>
+          <div class="col-7">
+            <div class="row">
+              <div class="card py-2 mb-4 bg-dark text-white new-font">
+                <h5 class="card-header bg-secondary text-white">
+                  <img
+                    class="rounded-circle"
+                    src="https://picsum.photos/id/147/30/30"
+                    alt=""
+                  />
+                  <span class="ms-3">Alex</span>
+                </h5>
+                <div class="card-body">
+                  <h5 class="card-title">Lorem, ipsum dolor.</h5>
+                  <p class="card-text">
+                    With supporting text below as a natural lead-in to
+                    additional content.
+                  </p>
+                </div>
+                <div class="container">
+                  <ul class="list-inline">
+                    <li class="list-inline-item">
+                      <i class="fa-regular fa-heart"></i>
+                    </li>
+                    <li class="list-inline-item ms-4">
+                      <i class="fa-regular fa-comment"></i>
+                    </li>
+                    <li class="list-inline-item ms-4">
+                      <i class="fa-solid fa-guitar"></i>
+                    </li>
+                    <li class="list-inline-item float-end me-3">
+                      <i class="fa-regular fa-bookmark"></i>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="card py-2 mb-4 bg-dark text-white new-font">
+                <h5 class="card-header bg-secondary text-white">
+                  <img
+                    class="rounded-circle"
+                    src="https://picsum.photos/id/77/30/30"
+                    alt=""
+                  />
+                  <span class="ms-3">Dexter Rees</span>
+                </h5>
+                <div class="card-body">
+                  <h5 class="card-title">Lorem, ipsum dolor.</h5>
+                  <p class="card-text">
+                    With supporting text below as a natural lead-in to
+                    additional content.
+                  </p>
+                </div>
+                <div class="container">
+                  <ul class="list-inline">
+                    <li class="list-inline-item">
+                      <i class="fa-regular fa-heart"></i>
+                    </li>
+                    <li class="list-inline-item ms-4">
+                      <i class="fa-regular fa-comment"></i>
+                    </li>
+                    <li class="list-inline-item ms-4">
+                      <i class="fa-solid fa-guitar"></i>
+                    </li>
+                    <li class="list-inline-item float-end me-3">
+                      <i class="fa-regular fa-bookmark"></i>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="card py-2 mb-4 bg-dark text-white new-font">
+                <h5 class="card-header bg-secondary text-white">
+                  <img
+                    class="rounded-circle"
+                    src="https://picsum.photos/id/17/30/30"
+                    alt=""
+                  />
+                  <span class="ms-3">Davion Peterson</span>
+                </h5>
+                <div class="card-body">
+                  <h5 class="card-title">Lorem, ipsum dolor.</h5>
+                  <p class="card-text">
+                    With supporting text below as a natural lead-in to
+                    additional content.
+                  </p>
+                </div>
+                <div class="container">
+                  <ul class="list-inline">
+                    <li class="list-inline-item">
+                      <i class="fa-regular fa-heart"></i>
+                    </li>
+                    <li class="list-inline-item ms-4">
+                      <i class="fa-regular fa-comment"></i>
+                    </li>
+                    <li class="list-inline-item ms-4">
+                      <i class="fa-solid fa-guitar"></i>
+                    </li>
+                    <li class="list-inline-item float-end me-3">
+                      <i class="fa-regular fa-bookmark"></i>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
+          <div class="col-3 ms-5 float-end">
+            <div class="card d-flex" style="width: 20rem">
+              <div class="card-header new-font kurslar bg-secondary">
+                Kurslar
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item bg-dark text-white">
+                  <a
+                    class="fs-5 text-decoration-none text-white course-list"
+                    href=""
+                  >
+                    Piano Kursu</a
+                  >
+                </li>
+                <li class="list-group-item bg-dark text-white">
+                  <a
+                    class="fs-5 text-decoration-none text-white course-list"
+                    href=""
+                  >
+                    Keman Kursu</a
+                  >
+                </li>
+                <li class="list-group-item bg-dark text-white">
+                  <a
+                    class="fs-5 text-decoration-none text-white course-list"
+                    href=""
+                  >
+                    Gitar Kursu</a
+                  >
+                </li>
+                <li class="list-group-item bg-dark text-white">
+                  <a
+                    class="fs-5 text-decoration-none text-white course-list"
+                    href=""
+                  >
+                    Bateri Kursu</a
+                  >
+                </li>
+                <li class="list-group-item bg-dark text-white">
+                  <a
+                    class="fs-5 text-decoration-none text-white course-list"
+                    href=""
+                  >
+                    Kemençe Kursu</a
+                  >
+                </li>
+                <li class="list-group-item bg-dark text-white">
+                  <a
+                    class="fs-5 text-decoration-none text-white course-list"
+                    href=""
+                  >
+                    Tulum Kursu</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer py-2 bg-dark text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6"></div>
           <div class="col-md-6">
             <h5 class="text-center">
               &copy; 2024 Music Store. Tüm Hakları Saklıdır.
@@ -99,5 +375,11 @@
         </div>
       </div>
     </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
